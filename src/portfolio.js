@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Forrest Cai",
-  title: "Hi all, I'm Forrest",
+  title: "Hi, I'm Forrest",
   subTitle: emoji(
-    "A Software Developer 🚀 with a passion in building solutions to complex problems."
+    "A Software Developer 🚀 with a passion in creating solutions to complex problems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Build Build Build, ",
+  subTitle: "Build. Innovate. Scale. ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive mobile and web applications for AI-driven solutions"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Architect scalable backends with modern frameworks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Market software products to maximize adoption and user engagement"
     )
   ],
 
@@ -62,16 +62,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "html",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "css",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
 
     {
-      skillName: "JavaScript",
+      skillName: "javaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -83,7 +83,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -135,30 +138,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Incoming Software Engineer Intern",
+      company: "Coinbase",
+      companylogo: require("./assets/images/CoinbaseLogo.png"),
+      date: "",
+      desc: "Summer 2025"
+    },
+
+    {
+      role: "Full-Stack Engineer Intern",
+      company: "DAuth Networks",
+      companylogo: require("./assets/images/DauthLogo.jpg"),
+      date: "May 2024 – Sep 2024",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Led the front-end development for web3 products, driving product visibility to 15,000+ impressions.",
+        "Integrated REST APIs, allowing for data retrieval and interaction between web3 smart accounts and traditional web2 auth providers."
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+
   ]
 };
 
@@ -177,27 +175,27 @@ const bigProjects = {
   subtitle: "Some cool stuff that I've worked on.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+      image: require("./assets/images/ChefmateLogo.png"),
+      projectName: "ChefMate",
+      projectDesc: "An AI culinary assistant.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
 
-      ]
+      // ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/CodetutorLogo.png"),
+      projectName: "CodeTutor",
+      projectDesc: "An adaptive coding tutor that learns with you.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
