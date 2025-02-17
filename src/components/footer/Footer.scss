@@ -1,6 +1,7 @@
 @import "../../_globalColor";
 
 .footer-text {
+  user-select: none;
   text-align: center;
   font-size: 15px;
   color: $subTitle !important;

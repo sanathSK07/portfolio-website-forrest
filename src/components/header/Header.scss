@@ -43,6 +43,7 @@
   padding: 15px 20px;
   color: $textColor;
   text-decoration: none;
+  user-select: none;
 }
 
 .header li a:hover,
@@ -58,6 +59,7 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+  user-select: none;
 }
 
 .header .logo-name {
