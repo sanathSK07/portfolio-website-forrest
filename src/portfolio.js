@@ -26,7 +26,7 @@ const greeting = {
     "A Software Developer 🚀 with a passion in creating solutions to complex problems."
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1VEmg3ErgZcxCoOxTWIJWufNgYFTtoGrg/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
