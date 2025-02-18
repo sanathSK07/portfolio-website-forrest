@@ -47,15 +47,24 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "Build. Innovate. Scale. ",
-  skills: [
+  skills:{light: [
     emoji(
-      "⚡ Develop interactive mobile and web applications for AI-driven solutions"
+      "🔅 Develop interactive mobile and web applications for AI-driven solutions"
     ),
-    emoji("⚡ Architect scalable backends with modern frameworks"),
+    emoji("🔅 Architect scalable backends with modern frameworks"),
     emoji(
-      "⚡ Market software products to maximize adoption and user engagement"
+      "🔅 Market software products to maximize adoption and user engagement"
     )
   ],
+dark: [
+  emoji(
+    "🌟 Develop interactive mobile and web applications for AI-driven solutions"
+  ),
+  emoji("🌟 Architect scalable backends with modern frameworks"),
+  emoji(
+    "🌟 Market software products to maximize adoption and user engagement"
+  )
+]},
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -99,15 +108,25 @@ const educationInfo = {
     {
       schoolName: "Cornell University",
       logo: require("./assets/images/cornellLogo.png"),
-      subHeader: "Bachelors of Science in Computer Science",
-      duration: "Expected June 2026",
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "Expected Graduation June 2026",
       desc: "",
       descBullets: [
    
      
       ]
     },
-
+    {
+      schoolName: "University of Washington",
+      logo: require("./assets/images/UWLogo.png"),
+      subHeader: "Bachelor's Degree (Transfer Credit)",
+      duration: "Aug 2022 - Jun 2023",
+      desc: "",
+      descBullets: [
+   
+     
+      ]
+    },
   ]
 };
 
