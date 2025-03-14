@@ -119,7 +119,7 @@ const educationInfo = {
     {
       schoolName: "Thistletown Collegiate Institute",
       logo: require("./assets/images/UWLogo.png"),
-      subHeader: "Bachelor's Degree (Transfer Credit)",
+      subHeader: "High School Diploma",
       duration: "Sep 2019 - Jun 2023",
       desc: "",
       descBullets: [
@@ -157,18 +157,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Incoming Software Engineer Intern",
-      company: "Coinbase",
+      role: "Software Engineer",
+      company: "Harini Handyman Service",
       companylogo: require("./assets/images/CoinbaseLogo.png"),
       date: "",
-      desc: "Summer 2025"
+      desc: "May 2022 - present"
     },
 
     {
-      role: "Full-Stack Engineer Intern",
-      company: "DAuth Networks",
+      role: "Founder and CEO",
+      company: "Gave",
       companylogo: require("./assets/images/DauthLogo.jpg"),
-      date: "May 2024 – Sep 2024",
+      date: "April 2019 – present",
       desc: "",
       descBullets: [
         "Led the front-end development for web3 products, driving product visibility to 15,000+ impressions.",
