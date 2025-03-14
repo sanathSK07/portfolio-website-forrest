@@ -172,7 +172,8 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Gave Technologies Inc is a Web App and Mobile App Development Company and Our Team of Experienced and Creative Heros always giving their best to make the clients happy!!",
-        "Integrated REST APIs, allowing for data retrieval and interaction between web3 smart accounts and traditional web2 auth providers."
+        "One Stop Solution for all your Mobile and Web Needs",
+        "Top Notch Mobile, Web, eCommerce Solutions with Supreme Quality Support"
       ]
     },
 
