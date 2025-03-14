@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Forrest Cai",
-  title: "Hi, I'm Forrest",
+  username: "Sanath Kamaraj",
+  title: "Hi, I'm Sanath",
   subTitle: emoji(
     "A Software Developer 🚀 with a passion in creating solutions to complex problems."
   ),
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/forrestcai35",
   linkedin: "https://www.linkedin.com/in/forrestcai/",
-  gmail: "fhc25@cornell.edu",
+  gmail: "sanathkamara66@gmail.com",
 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -106,9 +106,9 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Cornell University",
+      schoolName: "York University",
       logo: require("./assets/images/cornellLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor in Information Technology",
       duration: "Expected Graduation June 2026",
       desc: "",
       descBullets: [
@@ -117,10 +117,10 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "University of Washington",
+      schoolName: "Thistletown Collegiate Institute",
       logo: require("./assets/images/UWLogo.png"),
       subHeader: "Bachelor's Degree (Transfer Credit)",
-      duration: "Aug 2022 - Jun 2023",
+      duration: "Sep 2019 - Jun 2023",
       desc: "",
       descBullets: [
    
