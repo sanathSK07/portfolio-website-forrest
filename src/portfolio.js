@@ -171,7 +171,7 @@ const workExperiences = {
       date: "April 2019 – present",
       desc: "",
       descBullets: [
-        "Led the front-end development for web3 products, driving product visibility to 15,000+ impressions.",
+        "Gave Technologies Inc is a Web App and Mobile App Development Company and Our Team of Experienced and Creative Heros always giving their best to make the clients happy!!",
         "Integrated REST APIs, allowing for data retrieval and interaction between web3 smart accounts and traditional web2 auth providers."
       ]
     },
