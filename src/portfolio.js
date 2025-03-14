@@ -344,7 +344,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open!",
   number: "",
-  email_address: "fhc25@cornell.edu"
+  email_address: "sanathkamaraj66@gmail.com"
   
 };
 
